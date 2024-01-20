@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .shadow {
+    @apply [text-shadow:_0_4px_4px_rgb(0_0_0_/_100%)];
+  }
+
+  .btn-nav {
+    @apply font-semibold uppercase hover:text-nixo hvr-transition;
+  }
+
+  .hvr-transition {
+    @apply transition ease-in-out duration-300;
+  }
+
+  .linkText {
+    @apply text-nixo font-semibold hover:brightness-75 hvr-transition;
+  }
+
+  .highlightText {
+    @apply text-nixo font-semibold;
+  }
+}
