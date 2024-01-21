@@ -1,0 +1,24 @@
+[
+  {
+    "exmaple": {
+      "title": "Title",
+      "content": "*italic* **semibold** ***bold*** [img:imageSrc] [link:Link|LinkText]"
+    }
+  },
+  {
+    "title": "Kisten verschließen",
+    "content": "***Shift + Rechtsklick*** → Kiste verschließen / Optionen verwalten \n\n ***/dsettings*** → Standardeinstellungen verwalten"
+  },
+  {
+    "title": "Shops",
+    "content": "***Shopgröße:*** 4 Chunks \n\n ***Shoppreis:*** 64 Diamanten \n\n ***Shop erstellen:*** [img:/assets/createShop.png]"
+  },
+  {
+    "title": "Unsichtbare Itemframes",
+    "content": "Unsichtbaren Itemframe craften - *benötigt: Itemframe, normale Glasscheibe*: [img:/assets/invisFrame.png] Leuchtenden unsichtbaren Itemframe craften - *benötigt: unsichtbarer Itemframe, Leuchttintenbeutel*: [img:/assets/glowInvisFrame.png]"
+  },
+  {
+    "title": "Brustplatte und Elytra kombinieren",
+    "content": "***Kombinieren:*** Die gewünschte Brustplatte und Elytra auf einen Amboss werfen [img:/assets/combineElytra.gif] ***Trennen:*** Die kombinierte Elytra auf einen Schleifstein werfen [img:/assets/separateElytra.gif]" 
+  }
+]

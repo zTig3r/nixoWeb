@@ -51,7 +51,7 @@
   }
 
   onMount(async () => {
-    const response = await fetch('src/static/faq.json');
+    const response = await fetch('/faq.json');
     const json = await response.json();
     entries = json.slice(1).map((item: any) => ({
       title: item.title,

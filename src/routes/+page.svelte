@@ -1,14 +1,14 @@
 <script lang="ts">
   import { onMount, onDestroy } from "svelte";
   import { writable } from "svelte/store";
-  import logo from "../assets/logo.png";
-  import image1 from "../assets/slideShow/image1.png";
-  import image2 from "../assets/slideShow/image2.png";
-  import image3 from "../assets/slideShow/image3.png";
-  import image4 from "../assets/slideShow/image4.png";
-  import image5 from "../assets/slideShow/image5.png";
-  import image6 from "../assets/slideShow/image6.png";
-
+  import logo from "$lib/assets/logo.png";
+  import image1 from "$lib/assets/slideShow/image1.png";
+  import image2 from "$lib/assets/slideShow/image2.png";
+  import image3 from "$lib/assets/slideShow/image3.png";
+  import image4 from "$lib/assets/slideShow/image4.png";
+  import image5 from "$lib/assets/slideShow/image5.png";
+  import image6 from "$lib/assets/slideShow/image6.png";
+  
   let images = [image1, image2, image3, image4, image5, image6];
   let currentImageIndex = writable(0);
 

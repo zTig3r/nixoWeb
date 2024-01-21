@@ -4,7 +4,7 @@
   let rules: any[] = [];
 
   onMount(async () => {
-    const response = await fetch('src/static/rules.json');
+    const response = await fetch('/rules.json');
     rules = await response.json();
   });
 </script>

@@ -1,7 +1,7 @@
 <script lang="ts">
   import "../app.css";
   import { goto } from "$app/navigation";
-  import logo from "../assets/logo.png";
+  import logo from "$lib/assets/logo.png";
 
   async function main_page() {
     await goto("/");
