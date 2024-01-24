@@ -28,9 +28,9 @@
       if (star1 === '***' && star2 === '***') {
         return `<span class="font-bold">${text}</span>`;
       } else if (star1 === '**' && star2 === '**') {
-        return `<span class="font-semibold">${text}</span>`; // Semibold
+        return `<span class="font-semibold">${text}</span>`; 
       } else {
-        return `<span class="italic">${text}</span>`; // Italics
+        return `<span class="italic">${text}</span>`;
       }
     });
     

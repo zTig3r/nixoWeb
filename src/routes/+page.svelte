@@ -1,6 +1,8 @@
 <script lang="ts">
   import { onMount, onDestroy } from "svelte";
   import { writable } from "svelte/store";
+  import { useLazyImage as lazyImage } from 'svelte-lazy-image';
+  
   import logo from "$lib/assets/logo.png";
   import image1 from "$lib/assets/slideShow/image1.png";
   import image2 from "$lib/assets/slideShow/image2.png";
@@ -31,10 +33,11 @@
 <section>
   {#each images as image, index (index)}
     <img
-      src={image}
+      data-src={image}
       alt={`Image ${index + 1}`}
       class={`absolute w-full h-full object-cover transition-all animate-fade ${index === $currentImageIndex ? "" : "hidden"}`}
       aria-hidden="true"
+      use:lazyImage
     />
   {/each}
 
