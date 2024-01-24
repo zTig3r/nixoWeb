@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import { title } from "$lib/titleStore";
 
   interface Entry {
     title: string;
@@ -51,6 +52,8 @@
   }
 
   onMount(async () => {
+    title.set("FAQ");
+
     const response = await fetch('/faq.json');
     const json = await response.json();
     entries = json.slice(1).map((item: any) => ({

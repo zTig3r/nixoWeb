@@ -2,27 +2,28 @@
   import "../app.css";
   import { goto } from "$app/navigation";
   import logo from "$lib/assets/logo.png";
+  import { title } from "$lib/titleStore";
 
   async function main_page() {
     await goto("/");
-    location.reload();
   }
 
   async function worlds_page() {
     await goto("/worlds");
-    location.reload();
   }
 
   async function rules_page() {
     await goto("/rules");
-    location.reload();
   }
 
   async function faq_page() {
     await goto("/faq");
-    location.reload();
   }
 </script>
+
+<svelte:head>
+   <title>{$title}</title>
+</svelte:head>
 
 <div class="sticky top-0 bg-gradient-to-r from-primary to-secondary p-0.5 px-0 pt-0 z-50">
   <nav class="flex w-screen items-center max-h-14 p-4 bg-navbar">

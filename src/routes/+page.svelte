@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount, onDestroy } from "svelte";
   import { writable } from "svelte/store";
-  import { useLazyImage as lazyImage } from 'svelte-lazy-image';
+  import { title } from "$lib/titleStore";
   
   import logo from "$lib/assets/logo.png";
   import image1 from "$lib/assets/slideShow/image1.png";
@@ -15,6 +15,8 @@
   let currentImageIndex = writable(0);
 
   onMount(async () => {
+    title.clear();
+
     document.body.classList.add("overflow-hidden");
 
     const interval = setInterval(() => {
@@ -33,11 +35,10 @@
 <section>
   {#each images as image, index (index)}
     <img
-      data-src={image}
+      src={image}
       alt={`Image ${index + 1}`}
       class={`absolute w-full h-full object-cover transition-all animate-fade ${index === $currentImageIndex ? "" : "hidden"}`}
       aria-hidden="true"
-      use:lazyImage
     />
   {/each}
 
