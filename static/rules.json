@@ -1,35 +1,70 @@
-[
-  {
-    "content": "Du sollst nicht griefen (Gebäude zerstören)"
-  },
-  {
-    "content": "Du sollst nicht stehlen"
-  },
-  {
-    "content": "Du sollst nicht betrügen"
-  },
-  {
-    "content": "Wenn man von anderen was abbauen möchte (Feld, Schafe...) dann erst den Besitzer fragen"
-  },
-  {
-    "content": "Du sollst friedliche Atmosphäre bewahren"
-  },
-  {
-    "content": "Falls ein Haus die Sicht versperrt oder einen nervt, darf es nicht zerstört werden"
-  },
-  {
-    "content": "Bei jedem Verstoss wird eine Strafe verhängt und der Schaden muss beglichen werden"
-  },
-  {
-    "content": "Der Beschuldigte gilt so lange als unschuldig, bis das Gegenteil bewiesen wurde"
-  },
-  {
-    "content": "Glitches/Duplizieren ausnutzen ist verboten - einzige Ausnahme sind hierbei TNT-Duper"
-  },
-  {
-    "content": "Auf Shopgrundstücken darf erst etwas mit bestehendem Gebäude verkauft werden"
-  },
-  {
-    "content": "Das Regelwerk kann jederzeit verändert werden"
-  }
-]
+{
+  "sections": [
+    {
+      "title": "Allgemeine Regeln",
+      "rules": [
+        {
+          "content": "Achtet darauf, ein respektvolles Miteinander zu pflegen und eine friedliche Atmosphäre zu bewahren."
+        }
+      ]
+    },
+    {
+      "title": "Gameplay",
+      "rules": [
+        {
+          "content": "Griefen und Stehlen sind absolut untersagt, dies schließt auch das Scheren von Schafen ein - bitte fragt zuerst den Besitzer."
+        },
+        {
+          "content": "Das Ausnutzen von Glitches/Duplizieren ist verboten, mit der Ausnahme von TNT-Dupern."
+        },
+        {
+          "content": "Auf Shop-Grundstücken ist der Verkauf erst mit einem vorhandenen Gebäude erlaubt."
+        },
+        {
+          "content": "Farmen, die den Server laggen lassen, können vom Modteam stillgelegt werden."
+        },
+        {
+          "content": "Sowohl Shop-Grundstücke als auch Wohnorte müssen vor Bebauung genehmigt werden."
+        },
+        {
+          "content": "Achtet darauf, ausreichend Lizenzen zu erwerben."
+        }
+      ]
+    },
+    {
+      "title": "Strafen",
+      "rules": [
+        {
+          "content": "Mögliche Strafen umfassen Verwarnungen, Chat-Ausschlüsse oder möglicherweise den Rauswurf vom gesamten Server."
+        },
+        {
+          "content": "Bei einer Strafe hat der User die Möglichkeit, sich durch einen Entbannungsantrag an Tiger, Fienix oder Izio zu wenden, um eine Verringerung oder Aufhebung der Strafe zu erwirken."
+        },
+        {
+          "content": "Wenn nicht genügend Lizenzen erworben werden, kann der Gerichtsvollzieher Diamanten/Rüstungen/etc. im Wert der fehlenden Grundstückslizenzen beschlagnahmen – diese können anschließend freigekauft werden."
+        }
+      ]
+    },
+    {
+      "title": "Mods",
+      "rules": [
+        {
+          "content": "Alle Arten von Hacks, die einen spielerischen Vorteil bieten, sind verboten."
+        },
+        {
+          "content": "Freecam ist grundsätzlich untersagt (bis zur Freigabe einer Mod, die wir erlauben werden)."
+        },
+        {
+          "content": "Nur die Fairplay Edition von Xaerox's Minimap ist erlaubt (andere Minimap-Mods ohne Höhlenmodus und Entity Radar sind gestattet)."
+        },
+        {
+          "content": "Die Verwendung von Litematica ist verboten (um die Kreativität zu fördern)."
+        }
+      ]
+    },
+    {
+      "title": "Die Regeln können jederzeit angepasst werden. Durch das Betreten des Servers akzeptierst Du die Regeln. Unwissenheit schützt nicht vor Strafe!",
+      "rules": []
+    }
+  ]
+}

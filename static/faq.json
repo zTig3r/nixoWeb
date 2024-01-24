@@ -2,20 +2,40 @@
   {
     "exmaple": {
       "title": "Title",
-      "content": "*italic* **semibold** ***bold*** [img:imageSrc] [link:Link|LinkText]"
+      "content": "*italic* **semibold** ***bold*** [img:imageSrc] [link:Link|LinkText] &lt = '<' &gt = '>'"
     }
+  },
+  {
+    "title": "Empfohlene Mods",
+    "content": "[link:https://drive.google.com/drive/folders/1gVvAAHGpiCPRqwSIvsHOR0QiSgJDQ3sC|Empfohlene Mods für Labymod] \n\n Diese Mods sind empfohlen mit [link:https://www.labymod.net/de/download|Labymod] zu verwenden, hierbei muss das *\"Fabric Loader\"* Addon installiert werden - *in Minecraft → Optionen → oben den Tab \"Labymod\" auswählen → Addons → Fabric Loader installieren* \n\n ***Mods in Labymod installieren*** - *Spiel nach Installation von Fabric Loader neustarten → zu Addons wie zuvor → Fabric Loader Einstellungen → bei \"Mods Folder\" → \"Open\" → Mods in den Ordner ziehen → Spiel neustarten* \n\n Die Mods können ebenfalls mit [link:https://fabricmc.net/use/installer/|Fabric] installiert werden, dazu lassen sich genug Tutorials finden. Es könnten jedoch ein paar wichtige Mods unter den empfohlenen Mods fehlen, da diese bereits in Labymod enthalten sind. \n\n ***Möglich Inkompabilitäten*** - *\"Nvidium\"* funktioniert nur auf PCs mit einer Nvidia Grafikkarte, welche mindestens aus der 16xx Serie stammt. Selbst auf diesen PCs kann es jedoch zu Problemen kommen."
   },
   {
     "title": "Kisten verschließen",
     "content": "***Shift + Rechtsklick*** → Kiste verschließen / Optionen verwalten \n\n ***/dsettings*** → Standardeinstellungen verwalten"
   },
   {
+    "title": "Lizenzen",
+    "content": "***/lizenzen*** → Lizenzenmenü öffnen \n\n ***Grundstückspreis:*** 5 Diamanten"
+  },
+  {
     "title": "Shops",
-    "content": "***Shopgröße:*** 4 Chunks \n\n ***Shoppreis:*** 64 Diamanten \n\n ***Shop erstellen:*** [img:/assets/createShop.png]"
+    "content": "***Shopgröße:*** 4 Chunks \n\n ***Shoppreis:*** 64 Diamanten \n\n ***/shop*** → Shopmenü öffnen \n\n ***Shop erstellen:*** [img:/assets/createShop.png]"
+  },
+  {
+    "title": "Koordinatenmenü",
+    "content": "***/coords*** → Koordinatenmenü öffnen \n\n ***/sethome*** → Eigenes Zuhause hinzufügen - *in Overworld und Nether möglich*"
   },
   {
     "title": "Unsichtbare Itemframes",
     "content": "Unsichtbaren Itemframe craften - *benötigt: Itemframe, normale Glasscheibe*: [img:/assets/invisFrame.png] Leuchtenden unsichtbaren Itemframe craften - *benötigt: unsichtbarer Itemframe, Leuchttintenbeutel*: [img:/assets/glowInvisFrame.png]"
+  },
+  {
+    "title": "Köpfe erhalten",
+    "content": "***/head &ltSpielername&gt*** → Kopf von bestimmten Spieler erhalten \n\n ***/hdb*** → Kopfmenü öffnen \n\n ***/hdb search &ltSuchbegriff&gt*** → Nach Köpfen suchen"
+  },
+  {
+    "title": "Armorstands bearbeiten",
+    "content": "***Shift + Rechtsklick*** → Bearbeitungsmenü öffnen \n\n ***Scrollen*** → ausgewähltes Körperteil verändern \n\n ***Shift + Scrollen*** → Anpassungsgröße einstellen \n\n ***Linksklick*** → Bearbeitung beenden"
   },
   {
     "title": "Brustplatte und Elytra kombinieren",

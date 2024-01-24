@@ -65,7 +65,7 @@
   {#each entries as entry, i}
     <div class="bg-black/20 mb-5 rounded-2xl">
       <button class="p-5 flex items-center w-full justify-between font-semibold" on:click={() => toggleAccordion(i)} on:keydown={(event) => {if (event.key === 'Enter') toggleAccordion(i)}}>
-        <span class="font-bold">{entry.title}</span>
+        <span class="font-bold text-lg">{entry.title}</span>
         <svg data-accordion-icon class={`w-3 h-3 ${entry.isOpen ? "" : "rotate-180"} shrink-0 hvr-transition`} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
         </svg>

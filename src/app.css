@@ -8,7 +8,7 @@
   }
 
   .btn-nav {
-    @apply font-semibold uppercase hover:text-nixo hvr-transition;
+    @apply font-semibold uppercase text-lg hover:text-nixo hvr-transition;
   }
 
   .hvr-transition {
