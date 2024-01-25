@@ -38,7 +38,7 @@
       </button>
     </div>
 
-    <div class="flex pl-10 space-x-20">
+    <div class="flex md:space-x-20 md:pl-10 pl-5 space-x-7">
       <a class="btn-nav" href="/faq" on:click={faq_page}>
         <span>FaQ</span>
       </a>

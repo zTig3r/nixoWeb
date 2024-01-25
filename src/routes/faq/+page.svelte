@@ -56,18 +56,38 @@
 
     const response = await fetch('/faq.json');
     const json = await response.json();
-    entries = json.slice(1).map((item: any) => ({
+    entries = json.slice(1).map((item: any, i: any) => ({
       title: item.title,
       content: parseContent(item.content),
       isOpen: false,
+      index: i,
     }));
+
+    const indexHash = window.location.hash.substr(1);
+    
+    if (indexHash) {
+      const index = parseInt(indexHash, 10);
+      if (!isNaN(index) && index >= 0 && index < entries.length) {
+        toggleAccordion(index);
+
+        setTimeout(() => {
+          const accordionElement = document.getElementById(`accordion-${index}`);
+          if (accordionElement) {
+            accordionElement.scrollIntoView({
+              behavior: 'smooth',
+               block: 'end',
+            });
+          }
+        }, 100);
+      }
+    }
   });
 </script>
 
 <section class = "container mx-auto max-w-5xl py-0.5 my-5 overflow-hidden">
   {#each entries as entry, i}
-    <div class="bg-black/20 mb-5 rounded-2xl">
-      <button class="p-5 flex items-center w-full justify-between font-semibold" on:click={() => toggleAccordion(i)} on:keydown={(event) => {if (event.key === 'Enter') toggleAccordion(i)}}>
+    <div class="mb-5 rounded-2xl" id={`accordion-${entry.index}`}>
+      <button class="bg-black/20 hover:bg-black/40 p-5 flex items-center w-full justify-between font-semibold" on:click={() => toggleAccordion(i)} on:keydown={(event) => {if (event.key === 'Enter') toggleAccordion(i)}}>
         <span class="font-bold text-lg">{entry.title}</span>
         <svg data-accordion-icon class={`w-3 h-3 ${entry.isOpen ? "" : "rotate-180"} shrink-0 hvr-transition`} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
