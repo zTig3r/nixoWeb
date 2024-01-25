@@ -44,7 +44,7 @@
 
   <div class="absolute bg-black/60 w-full">
     <div class="flex flex-col max-w-2xl justify-center mx-auto h-screen shadow" style="height: calc(100vh - 50px);">
-      <img src={logo} alt="Logo" class="w-auto"/>
+      <img src={logo} alt="Logo" class="w-auto scale-90"/>
       <div class="text-center mt-10 text-2xl text-shadow font-semibold">
         <span>Joine und spiele mit <span data-playercounter-ip="mc.hypixel.net">0</span> anderen Spielern!</span>
       </div>
