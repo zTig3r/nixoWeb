@@ -17,8 +17,6 @@
   onMount(async () => {
     title.clear();
 
-    document.body.classList.add("overflow-hidden");
-
     const interval = setInterval(() => {
       const nonHiddenImages = images.filter((_, index) => index !== $currentImageIndex);
       const randomIndex = Math.floor(Math.random() * nonHiddenImages.length);
@@ -37,12 +35,12 @@
     <img
       src={image}
       alt={`Image ${index + 1}`}
-      class={`absolute w-full h-full object-cover transition-all animate-fade ${index === $currentImageIndex ? "" : "hidden"}`}
+      class={`absolute w-full h-full  transition-all animate-fade ${index === $currentImageIndex ? "" : "hidden"}`}
       aria-hidden="true"
     />
   {/each}
 
-  <div class="absolute bg-black/60 w-full">
+  <div class="relative bg-black/60 w-full">
     <div class="flex flex-col max-w-2xl justify-center mx-auto h-screen shadow" style="height: calc(100vh - 50px);">
       <img src={logo} alt="Logo" class="w-auto scale-90"/>
       <div class="text-center mt-10 text-2xl text-shadow font-semibold">

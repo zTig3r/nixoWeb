@@ -5,7 +5,6 @@
   import logo from "$lib/assets/logo.png";
 
   async function navigateTo(path: string) {
-    document.body.classList.remove("overflow-hidden");
     await goto(path);
   }
 
@@ -64,3 +63,28 @@
 </div>
 
 <slot />
+
+<footer class="bg-background z-50 sticky">
+  <div class="bg-black/30">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-6 ">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0 flex items-center">
+          <img src={logo} class="h-8 me-3" alt="Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Fienix and Izio</span>
+        </div>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 NixoCraft</span>
+        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <li>
+            <a href="/privacy" class="hover:underline me-4 md:me-6">Datenschützerklärung</a>
+          </li>
+          <li>
+            <a href="/imprint" class="hover:underline me-4 md:me-6">Impressum</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
