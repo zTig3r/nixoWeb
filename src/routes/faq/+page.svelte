@@ -84,7 +84,7 @@
   });
 </script>
 
-<section class = "container mx-auto max-w-5xl py-0.5 my-5 overflow-hidden pb-16">
+<section class = "container mx-auto max-w-5xl md:px-0 px-2 py-0.5 my-5 overflow-hidden pb-16">
   {#each entries as entry, i}
     <div class="mb-5 rounded-2xl" id={`accordion-${entry.index}`}>
       <button class="bg-black/20 hover:bg-black/40 p-5 flex items-center w-full justify-between font-semibold" on:click={() => toggleAccordion(i)} on:keydown={(event) => {if (event.key === 'Enter') toggleAccordion(i)}}>

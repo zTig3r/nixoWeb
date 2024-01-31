@@ -35,7 +35,7 @@
     <img
       src={image}
       alt={`Image ${index + 1}`}
-      class={`absolute w-full h-full  transition-all animate-fade ${index === $currentImageIndex ? "" : "hidden"}`}
+      class={`absolute w-full h-full object-cover transition-all animate-fade ${index === $currentImageIndex ? "" : "hidden"}`}
       aria-hidden="true"
     />
   {/each}
@@ -44,7 +44,7 @@
     <div class="flex flex-col max-w-2xl justify-center mx-auto h-screen shadow" style="height: calc(100vh - 50px);">
       <img src={logo} alt="Logo" class="w-auto scale-90"/>
       <div class="text-center mt-10 text-2xl text-shadow font-semibold">
-        <span>Joine und spiele mit <span data-playercounter-ip="mc.hypixel.net">0</span> anderen Spielern!</span>
+        <span>Joine und spiele mit <span data-playercounter-ip="193.187.255.43:26500">0</span> anderen Spielern!</span>
       </div>
     </div>
   </div>

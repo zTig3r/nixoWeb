@@ -20,5 +20,5 @@ RUN cd /app && \
 
 WORKDIR /app
 
-ENV PORT=80
+ENV PORT=443
 CMD ["node", "build/index.js"]
