@@ -3,5 +3,5 @@ services:
   svelte:
     build: .
     ports:
-      - "443:443"
+      - "80:80"
     restart: always
