@@ -14,7 +14,7 @@
   });
 </script>
 
-<section class="container mx-auto max-w-5xl py-0.5 my-5 bg-black/20 rounded-2xl">
+<section class="container mx-auto max-w-5xl py-0.5 my-5 bg-black/20 rounded-2xl min-h-screen">
   {#each sections as section}
     <div class="text-xl font-bold p-4">{section.title}</div>
     {#each section.rules as rule, ruleIndex}

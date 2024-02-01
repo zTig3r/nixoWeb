@@ -2,7 +2,7 @@
   import "../app.css";
   import { goto } from "$app/navigation";
   import { title } from "$lib/titleStore";
-  import logo from "$lib/assets/logo.png";
+  import logo from "$lib/assets/logo.webp";
 
   async function navigateTo(path: string) {
     await goto(path);

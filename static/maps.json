@@ -3,21 +3,21 @@
       "title": "NixoCraft 3",
       "description": "Juni 2022 - Januar 2024",
       "version": "1.19.3",
-      "imageUrl": "server3.png",
+      "imageUrl": "server3.jpg",
       "downloadLink": "https://drive.google.com/file/d/1uutUhbymD3jpPAMGwwTl3MTSsJ5ACeGC/view?usp=drive_link"
   },
   {
       "title": "NixoCraft 2",
       "description": "Mai 2021 - Juni 2022",
       "version": "1.16.4",
-      "imageUrl": "server2.png",
+      "imageUrl": "server2.jpg",
       "downloadLink": "https://drive.google.com/file/d/1F1w7fO2YMQt8CHHIxKiP8UjXmbkinI6T/view?usp=drive_link"
   },
   {
       "title": "NixoCraft 1",
       "description": "April 2020 - Mai 2021",
       "version": "1.16.4 (1.14.4)",
-      "imageUrl": "server1.png",
+      "imageUrl": "server1.jpg",
       "downloadLink": "https://drive.google.com/file/d/1VZbWUktF7uIwMEYvVu65pDqY6_Fxhheg/view?usp=drive_link"
   }
 ]

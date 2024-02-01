@@ -30,10 +30,10 @@
 </style>
 
 
-<section>
+<section class="min-h-screen">
   {#each maps as map}
     <div class="container mx-auto md:w-8/12 w-10/12 max-w-full h-80 overflow-hidden relative group rounded-2xl m-8">
-      <img class="object-cover object-center w-full h-full rounded-lg group-hover:scale-110 hvr-transition" src=/assets/{map.imageUrl} alt={map.title}/>
+      <img class="object-cover object-center w-full h-full rounded-lg group-hover:scale-110 hvr-transition transition-all animate-fade" src=/assets/{map.imageUrl} alt={map.title}/>
       <div class="absolute inset-0 bg-black/20 hover:bg-black/50 z-10 rounded-lg hvr-transition">
         <div class="absolute z-20 p-4 top-0 left-0 right-0 bottom-0 flex flex-col justify-between items-center text-2xl font-semibold shadow">
           <span>{map.title}</span>

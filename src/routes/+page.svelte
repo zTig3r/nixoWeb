@@ -3,13 +3,13 @@
   import { writable } from "svelte/store";
   import { title } from "$lib/titleStore";
   
-  import logo from "$lib/assets/logo.png";
-  import image1 from "$lib/assets/slideShow/image1.png";
-  import image2 from "$lib/assets/slideShow/image2.png";
-  import image3 from "$lib/assets/slideShow/image3.png";
-  import image4 from "$lib/assets/slideShow/image4.png";
-  import image5 from "$lib/assets/slideShow/image5.png";
-  import image6 from "$lib/assets/slideShow/image6.png";
+  import logo from "$lib/assets/logo.webp";
+  import image1 from "$lib/assets/slideShow/image1.jpg";
+  import image2 from "$lib/assets/slideShow/image2.jpg";
+  import image3 from "$lib/assets/slideShow/image3.jpg";
+  import image4 from "$lib/assets/slideShow/image4.jpg";
+  import image5 from "$lib/assets/slideShow/image5.jpg";
+  import image6 from "$lib/assets/slideShow/image6.jpg";
   
   let images = [image1, image2, image3, image4, image5, image6];
   let currentImageIndex = writable(0);
@@ -40,7 +40,7 @@
     />
   {/each}
 
-  <div class="relative bg-black/60 w-full">
+  <div class="relative bg-black/60 w-full min-h-screen">
     <div class="flex flex-col max-w-2xl justify-center mx-auto h-screen shadow" style="height: calc(100vh - 50px);">
       <img src={logo} alt="Logo" class="w-auto scale-90"/>
       <div class="text-center mt-10 text-2xl text-shadow font-semibold">
