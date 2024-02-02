@@ -6,20 +6,24 @@
     }
   },
   {
+    "title":"Allgemeine Informationen",
+    "content":"***Version:*** 1.20.4 \n\n ***Schwierigkeitsgrad:*** Schwer \n\n ***Standardgrundstückgröße:*** 16 Chunks \n\n Die Mod Simple-Voice-Chat wird unterstützt"
+  },
+  {
     "title": "Empfohlene Mods",
-    "content": "[link:https://drive.google.com/drive/folders/1gVvAAHGpiCPRqwSIvsHOR0QiSgJDQ3sC|Empfohlene Mods für Labymod] \n\n Diese Mods sind empfohlen mit [link:https://www.labymod.net/de/download|Labymod] zu verwenden, hierbei muss das *\"Fabric Loader\"* Addon installiert werden: [link:https://www.labymod.net/support/article/61.wie-fuge-ich-mods-zu-labymod-hinzu|Anleitung]  \n\n Die Mods können ebenfalls mit [link:https://fabricmc.net/use/installer/|Fabric] installiert werden, dazu lassen sich genug Tutorials finden. Es könnten jedoch ein paar wichtige Mods unter den empfohlenen Mods fehlen, da diese bereits in Labymod enthalten sind. \n\n ***Mögliche Inkompabilitäten:*** \n *\"Mouse-Wheelie\"* wurde minimal unsererseits modifiziert, damit diese Mod mit LabyMod kompatibel ist - das Einstellungsmenü kann jedoch nicht repariert werden, deshalb müssen die Einstellungen über eine Config-Datei getroffen werden. \n\n *\"LambDynamicLights\"* kann zu großen FPS-Einbrüchen führen. Vorrübergehende Lösung: *Einstellungen der Mod öffnen → *Entities* als Lichtquelle deaktivieren.* \n\n *\"Nvidium\"* funktioniert nur auf PCs mit einer Nvidia Grafikkarte, welche mindestens aus der 16xx Serie stammt. Selbst auf diesen PCs kann es jedoch zu Problemen kommen. \n\n  **Falls Hilfe benötigt wird oder Probleme auftreten, meldet euch hier:** [link:https://discord.com/users/389368075449008129|Tiger auf Discord]"
+    "content": "[link:https://drive.google.com/drive/folders/1gVvAAHGpiCPRqwSIvsHOR0QiSgJDQ3sC|Empfohlene Mods für Labymod *(hier klicken)*] \n\n Diese Mods sind empfohlen mit [link:https://www.labymod.net/de/download|Labymod] zu verwenden, hierbei muss das *\"Fabric Loader\"* Addon installiert werden: [link:https://www.labymod.net/support/article/61.wie-fuge-ich-mods-zu-labymod-hinzu|Anleitung]  \n\n Die Mods können ebenfalls mit [link:https://fabricmc.net/use/installer/|Fabric] installiert werden, dazu lassen sich genug Tutorials finden. Es könnten jedoch ein paar wichtige Mods unter den empfohlenen Mods fehlen, da diese bereits in Labymod enthalten sind. \n\n ***Mögliche Inkompabilitäten:*** \n *\"Mouse-Wheelie\"* wurde minimal unsererseits modifiziert, damit diese Mod mit LabyMod kompatibel ist - das Einstellungsmenü kann jedoch nicht repariert werden, deshalb müssen die Einstellungen über eine Config-Datei getroffen werden. \n\n *\"LambDynamicLights\"* kann zu großen FPS-Einbrüchen führen. Vorrübergehende Lösung: *Einstellungen der Mod öffnen → *Entities* als Lichtquelle deaktivieren.* \n\n *\"Nvidium\"* funktioniert nur auf PCs mit einer Nvidia Grafikkarte, welche mindestens aus der 16xx Serie stammt. Selbst auf diesen PCs kann es jedoch zu Problemen kommen. \n\n  **Falls Hilfe benötigt wird oder Probleme auftreten, meldet euch hier:** [link:https://discord.com/users/389368075449008129|Tiger auf Discord]"
   },
   {
     "title": "Kisten verschließen",
     "content": "***Shift + Rechtsklick*** → Kiste verschließen / Optionen verwalten \n\n ***/dsettings*** → Standardeinstellungen verwalten"
   },
   {
-    "title": "Lizenzen",
-    "content": "***/lizenzen*** → Lizenzenmenü öffnen \n\n ***Grundstückspreis:*** 5 Diamanten"
+    "title": "Grundstücke",
+    "content": "***Standardgrundstückgröße:*** 16 Chunks \n\n  ***/lizenzen*** → Lizenzenmenü öffnen \n\n ***Grundstückspreis:*** 5 Diamanten pro Chunk"
   },
   {
     "title": "Shops",
-    "content": "***Shopgröße:*** 4 Chunks \n\n ***Shoppreis:*** 64 Diamanten \n\n ***/shop*** → Shopmenü öffnen \n\n ***Shop erstellen:*** [img:/assets/createShop.webp]"
+    "content": "***Standardshopgröße:*** 4 Chunks \n\n ***Shoppreis:*** 64 Diamanten \n\n\n *Das Shopgrundstück kann um bis zu 5 Chunks erweitert werden, dies sollte vor dem Bau entschieden werden:* \n\n ***Maximale Shopgröße:*** 9 Chunks \n\n ***Erweiterungspreis:*** 32 Diamanten pro Chunk \n\n\n ***/shop*** → Shopmenü öffnen \n\n ***Shop erstellen:*** [img:/assets/createShop.webp]"
   },
   {
     "title": "Koordinatenmenü",

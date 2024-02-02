@@ -44,7 +44,7 @@
     <div class="flex flex-col max-w-2xl justify-center mx-auto h-screen shadow" style="height: calc(100vh - 50px);">
       <img src={logo} alt="Logo" class="w-auto scale-90"/>
       <div class="text-center mt-10 text-2xl text-shadow font-semibold">
-        <span>Joine und spiele mit <span data-playercounter-ip="193.187.255.43:26500">0</span> anderen Spielern!</span>
+        <span>Joine und spiele mit <span data-playercounter-ip="play.nixocraft.de">0</span> anderen Spielern!</span>
       </div>
     </div>
   </div>
