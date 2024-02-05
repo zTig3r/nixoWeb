@@ -23,4 +23,6 @@
       </p>
     {/each}
   {/each}
+
+  <div class="text-lg italic p-6">Du kannst die Regeln im Spiel mit /rules accept akzeptieren.</div>
 </section>
