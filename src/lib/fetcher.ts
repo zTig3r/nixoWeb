@@ -1,5 +1,5 @@
 export async function fetcher(url: string, method: any) {
-    const res = await fetch("http://" + location.hostname + ":5173/" + url, {
+    const res = await fetch("https://" + location.hostname + "/" + url, {
       method,
       headers: {
         "Content-Type": "application/json"
