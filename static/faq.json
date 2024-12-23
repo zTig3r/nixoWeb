@@ -34,6 +34,10 @@
     "content": "Unsichtbaren Itemframe craften - *benötigt: Itemframe, normale Glasscheibe*: [img:/assets/invisFrame.png] Leuchtenden unsichtbaren Itemframe craften - *benötigt: unsichtbarer Itemframe, Leuchttintenbeutel*: [img:/assets/glowInvisFrame.png]"
   },
   {
+    "title": "Unsichtbares Licht",
+    "content": "Unsichtbares Licht craften - *benötigt: Fackel, 4x Glasscheibe*: [img:/assets/invisLight.png] **Das Licht ist nur sichtbar und abbaubar, wenn man das Item in der Hand hält!**"
+  },
+  {
     "title": "Köpfe erhalten",
     "content": "***/head &ltSpielername&gt*** → Kopf von bestimmten Spieler erhalten \n\n ***/hdb*** → Kopfmenü öffnen \n\n ***/hdb search &ltSuchbegriff&gt*** → Nach Köpfen suchen"
   },
