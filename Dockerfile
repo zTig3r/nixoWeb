@@ -43,7 +43,7 @@ ENV NODE_ENV=production
 # Use non-root user
 USER node
 
-ENV PORT=8080
+ENV PORT=8090
 
 # Run the application
 CMD ["node", "build"]
