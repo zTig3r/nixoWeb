@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: nixocraft
+spec:
+    replicas: 2
+    selector:
+        matchLabels:
+            app: nixocraft
+    template:
+        metadata:
+            labels:
+                app: nixocraft
+        spec:
+            containers:
+                -   name: nixocraft
+                    image: nginx:latest
+                    ports:
+                        -   containerPort: 80
