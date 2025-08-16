@@ -14,12 +14,11 @@ spec:
     spec:
       containers:
         - name: nixocraft
-          image: ghcr.io/ztig3r/nixoweb:latest   # <-- your built image
+          image: ghcr.io/ztig3r/nixoweb:latest
           ports:
             - containerPort: 80
           env:
             - name: PORT
               value: "80"
-
       imagePullSecrets:
         - name: regcred
