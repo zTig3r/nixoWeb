@@ -18,9 +18,8 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
     
-    - name: Build and tag Docker image
-      run: |
-        docker build . --file Dockerfile --tag ghcr.io/zTig3r/nixoweb:latest
+    - name: Build Docker image
+      run: docker build . --file Dockerfile --tag ghcr.io/ztig3r/nixoweb:latest
     
     - name: Push Docker image
       run: |
