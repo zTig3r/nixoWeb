@@ -1,24 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nixocraft
+  name: nixoweb
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: nixocraft
+      app: nixoweb
   template:
     metadata:
       labels:
-        app: nixocraft
+        app: nixoweb
     spec:
       containers:
-        - name: nixocraft
+        - name: nixoweb
           image: ghcr.io/ztig3r/nixoweb:latest
           ports:
-            - containerPort: 80
-          env:
-            - name: PORT
-              value: "80"
+            - containerPort: 8080
       imagePullSecrets:
         - name: regcred

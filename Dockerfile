@@ -1,24 +1,49 @@
-FROM node:18-alpine AS builder
+# syntax=docker/dockerfile:1
 
-RUN mkdir /app
+ARG NODE_VERSION=23.11.0
 
-COPY . /app
+################################################################################
+# Base image
+FROM node:${NODE_VERSION}-alpine AS base
+WORKDIR /usr/src/app
 
-RUN cd /app && yarn install && \
-  yarn build 
+################################################################################
+# Build stage (install all dependencies including devDependencies)
+FROM base AS build
 
-FROM node:18-alpine
+# Copy package.json and lockfile
+COPY package*.json ./
 
-RUN mkdir /app
+# Install all dependencies (dev + prod) for build
+RUN npm ci
 
-COPY --from=builder /app/build /app/build
-COPY --from=builder /app/package.json /app/yarn.lock /app/
+# Copy the rest of the source code
+COPY . .
 
-RUN cd /app && \
-  yarn install --production && \
-  yarn cache clean
+# Run build (e.g., SvelteKit)
+RUN npm run build
 
-WORKDIR /app
+################################################################################
+# Production stage (minimal image)
+FROM node:${NODE_VERSION}-alpine AS final
+WORKDIR /usr/src/app
+
+# Copy package.json and lockfile
+COPY package*.json ./
+
+# Install only production dependencies and ignore scripts to avoid prepare errors
+RUN npm ci --omit=dev --ignore-scripts
+
+# Copy built application from build stage
+COPY --from=build /usr/src/app/build ./build
+
+# Set NODE_ENV to production
+ENV NODE_ENV=production
+
+# Use non-root user
+USER node
 
 ENV PORT=80
-CMD ["node", "build/index.js"]
+
+# Run the application
+CMD ["node", "build"]
