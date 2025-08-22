@@ -16,6 +16,6 @@ spec:
         - name: nixoweb
           image: ghcr.io/ztig3r/nixoweb:latest
           ports:
-            - containerPort: 8090
+            - containerPort: 8080
       imagePullSecrets:
         - name: regcred
