@@ -20,7 +20,7 @@ RUN npm ci
 # Copy the rest of the source code
 COPY . .
 
-# Run build (e.g., SvelteKit)
+# Run build
 RUN npm run build
 
 ################################################################################
