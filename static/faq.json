@@ -1,37 +1,41 @@
 [
   {
-    "exmaple": {
+    "example": {
       "title": "Title",
-      "content": "*italic* **semibold** ***bold*** [img:imageSrc] [link:Link|LinkText] &lt = '<' &gt = '>'"
+      "content": "*italic* **semibold** ***bold*** [img:imageSrc] [link:Link|LinkText] [color:#ColorCode|Text] &lt = '<' &gt = '>'"
     }
   },
   {
-    "title":"Allgemeine Informationen",
-    "content":"***Version:*** 1.20.4 \n\n ***Schwierigkeitsgrad:*** Schwer \n\n ***Standardgrundstückgröße:*** 16 Chunks \n\n Die Mod Simple-Voice-Chat wird unterstützt"
+    "title": "Allgemeine Informationen",
+    "content": "***Version:*** 1.21.10 \n\n ***Schwierigkeitsgrad:*** Schwer \n\n ***Standardgrundstückgröße:*** 16 Chunks \n\n Im Pausemenü können über den [color:#94c6f3|NixoCraft]-Button verschiedene Funktionen der Plugins aufgerufen werden. \n\n Die Mod Simple-Voice-Chat wird unterstützt."
   },
   {
     "title": "Empfohlene Mods",
-    "content": "[link:https://drive.google.com/drive/folders/1B2t7GFR23X1intNpsfhPAbAfl58ruOEG|Empfohlene Mods für Labymod *(hier klicken)*] \n\n Diese Mods sind empfohlen mit [link:https://www.labymod.net/de/download|Labymod] zu verwenden, hierbei muss das *\"Fabric Loader\"* Addon installiert werden: [link:https://www.labymod.net/support/article/61.wie-fuge-ich-mods-zu-labymod-hinzu|Anleitung]  \n\n Die Mods können ebenfalls mit [link:https://fabricmc.net/use/installer/|Fabric] installiert werden, dazu lassen sich genug Tutorials finden. Es könnten jedoch ein paar wichtige Mods unter den empfohlenen Mods fehlen, da diese bereits in Labymod enthalten sind. \n\n *Diese Mods sind lediglich für unseren Server empfohlen - andere Server könnten einige Mods als Cheats einstufen, deshalb ist die Verwendung dort auf eigene Gefahr!* \n\n  **Falls Hilfe benötigt wird oder Probleme auftreten, meldet euch hier:** [link:https://discord.com/users/389368075449008129|Tiger auf Discord]"
+    "content": "[link:https://modrinth.com/modpack/nixocraft-5|Offizielles NixoCraft 5 Modpack *(hier klicken)*] \n\n Diese Mods sind empfohlen mit [link:https://www.labymod.net/de/download|Labymod] zu verwenden. Hierzu klickt man im Launcher oben rechts auf das *Puzzle-Symbol* und sucht anschließend nach dem \"NixoCraft 5\" Modpack: [link:https://www.labymod.net/support/article/61.wie-fuge-ich-mods-zu-labymod-hinzu|Anleitung um Modpacks zu installieren]  \n\n Die Mods können ebenfalls mit [link:https://fabricmc.net/use/installer/|Fabric] installiert werden, dazu lassen sich genug Tutorials finden. Es könnten jedoch ein paar wichtige Mods unter den empfohlenen Mods fehlen, da diese bereits in Labymod enthalten sind. \n\n Falls man die Mods weiterhin über eine .zip-Datei herunterladen und hinzufügen möchte, kann man das Modpack über diese [link:https://tutorialy.net/mrpacktozip/|Website] herunterladen. \n\n Die Mod ***Nvidium*** ist nur mit PCs kompatibel, die mindestens eine Nvidia Grafikkarte der 1600er Generation besitzen. \n\n *Diese Mods sind lediglich für unseren Server empfohlen - andere Server könnten einige Mods als Cheats einstufen, deshalb ist die Verwendung dort auf eigene Gefahr!* \n\n  **Falls Hilfe benötigt wird oder Probleme auftreten, meldet euch hier:** [link:https://discord.com/users/389368075449008129|Tiger auf Discord]"
   },
   {
     "title": "Kisten verschließen",
-    "content": "***Shift + Rechtsklick*** → Kiste verschließen / Optionen verwalten \n\n ***/dsettings*** → Standardeinstellungen verwalten"
+    "content": "***Shift + Rechtsklick*** → Kiste verschließen / Optionen verwalten \n\n ***/dsettings*** → Standardeinstellungen verwalten \n\n [img:/assets/copyChestSettings.gif] In den Einstellungen einer Kisten können alle Einstellungen kopiert werden. Sobald man andere Kisten schlägt, werden die Einstellungen übernommen. \n ***/cancelcopy*** → Kopiervorgang abbrechen"
   },
   {
     "title": "Grundstücke",
-    "content": "***Standardgrundstückgröße:*** 16 Chunks \n\n  ***/lizenzen*** → Lizenzenmenü öffnen \n\n ***Grundstückspreis:*** 5 Diamanten pro Chunk"
+    "content": "Durch Grundstückslizenzen legst du fest, dass dir ein Gebiet gehört. Sollte in diesem Bereich etwas gegrieft werden, kann das Modteam weitere Schritte durchführen, um den Schaden zu begleichen. \n\n Die Diamanten, welche durch die Grundstücke eingenommen werden, sollen durch Events wieder in der Community verteilt werden.  \n\n  ***Standardgrundstückgröße:*** 16 Chunks \n\n  ***/lizenzen*** → Lizenzenmenü öffnen \n\n ***Grundstückspreis:*** 5 Diamanten pro Chunk"
   },
   {
     "title": "Shops",
     "content": "***Standardshopgröße:*** 4 Chunks \n\n ***Shoppreis:*** 64 Diamanten \n\n\n *Das Shopgrundstück kann um bis zu 5 Chunks erweitert werden, dies sollte vor dem Bau entschieden werden:* \n\n ***Maximale Shopgröße:*** 9 Chunks \n\n ***Erweiterungspreis:*** 32 Diamanten pro Chunk \n\n\n ***/shop*** → Shopmenü öffnen \n\n ***Shop erstellen:*** [img:/assets/createShop.webp]"
   },
   {
+    "title": "Weitere Befehle",
+    "content": "***/pvp*** → PVP de- oder aktivieren \n\n ***/sit*** → Hinsetzen"
+  },
+  {
     "title": "Koordinatenmenü",
-    "content": "***/coords*** → Koordinatenmenü öffnen \n\n ***/sethome*** → Eigenes Zuhause hinzufügen - *in Overworld und Nether möglich*"
+    "content": "***/coords*** → Koordinatenmenü öffnen \n\n ***/sethome*** → Eigenes Zuhause hinzufügen"
   },
   {
     "title": "Unsichtbare Itemframes",
-    "content": "Unsichtbaren Itemframe craften - *benötigt: Itemframe, normale Glasscheibe*: [img:/assets/invisFrame.png] Leuchtenden unsichtbaren Itemframe craften - *benötigt: unsichtbarer Itemframe, Leuchttintenbeutel*: [img:/assets/glowInvisFrame.png]"
+    "content": "Unsichtbaren Itemframe craften - *benötigt: Itemframe, normale Glasscheibe*: [img:/assets/invisFrame.png] Leuchtenden unsichtbaren Itemframe craften - *benötigt: leuchtender Itemframe, normale Glasscheibe*: [img:/assets/glowInvisFrame.png]"
   },
   {
     "title": "Unsichtbares Licht",
@@ -47,6 +51,6 @@
   },
   {
     "title": "Brustplatte und Elytra kombinieren",
-    "content": "***Kombinieren:*** Die gewünschte Brustplatte und Elytra auf einen Amboss werfen [img:/assets/combineElytra.gif] ***Trennen:*** Die kombinierte Elytra auf einen Schleifstein werfen [img:/assets/separateElytra.gif]" 
+    "content": "***Kombinieren:*** Die gewünschte Brustplatte und Elytra auf einen Amboss werfen [img:/assets/combineElytra.gif] ***Trennen:*** Die kombinierte Elytra auf einen Schleifstein werfen [img:/assets/separateElytra.gif]"
   }
 ]

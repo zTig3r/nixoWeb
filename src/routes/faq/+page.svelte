@@ -11,11 +11,11 @@
     let entries: any[] = [];
 
     function parseContent(content: string): string {
-        const imagePlaceholderRegex = /\[img:(.*?)\]/g;
-        const linkPlaceholderRegex = /\[link:(.*?)\|(.*?)\]/g;
+        const imagePlaceholderRegex = /\[img:(.*?)]/g;
+        const linkPlaceholderRegex = /\[link:(.*?)\|(.*?)]/g;
         const starFormattingRegex = /(\*{1,3})(.*?)(\*{1,3})/g;
         const lineBreakRegex = /\n/g;
-
+        const colorRegex = /\[color:(#[0-9A-Fa-f]{6}|#[0-9A-Fa-f]{3}|[a-zA-Z]+)\|(.*?)]/g;
 
         content = content.replace(imagePlaceholderRegex, (_match, imagePath) => {
             return `<img class="py-5" src="${imagePath}" alt="Image">`;
@@ -23,6 +23,10 @@
 
         content = content.replace(linkPlaceholderRegex, (_match, linkUrl, linkText) => {
             return `<a href="${linkUrl}" target="_blank" rel="noopener noreferrer" class="linkText">${linkText}</a>`;
+        });
+
+        content = content.replace(colorRegex, (_match, color, text) => {
+            return `<span style="color: ${color}">${text}</span>`;
         });
 
         content = content.replace(starFormattingRegex, (match, star1, text, star2) => {

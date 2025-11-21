@@ -24,7 +24,7 @@
         {/each}
     {/each}
 
-    <div class="text-lg italic p-6 transition-all animate-fade animate-delay-1000">Du kannst die Regeln im Spiel mit
-        /rules accept akzeptieren.
+    <div class="text-lg italic p-6 transition-all animate-fade animate-delay-1000">
+        Du kannst die Regeln im Spiel mit /rules accept akzeptieren.
     </div>
 </section>
