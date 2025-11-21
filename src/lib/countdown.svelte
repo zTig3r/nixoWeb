@@ -2,7 +2,7 @@
     import {onMount} from "svelte";
     import {writable} from "svelte/store";
 
-    const END = new Date("2025-11-21T10:00:00").getTime();
+    const END = new Date("2025-11-22T10:00:00").getTime();
 
     function formatCountdown(now: number) {
         const distance = END - now;
